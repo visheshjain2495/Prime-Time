@@ -1,3 +1,5 @@
+var numberOfTickets = 0;
+
 $(".buy-btn").click(function() {
     $(this).closest('#morning-evening').hide();
 });
@@ -57,8 +59,7 @@ $(".morning-checkout-back-btn").click(()=>{
 });
 
 $(".person").on("click", function () {
-  $(".person").removeClass("current-sel").removeAttr("data-selected");
-  $(this).addClass("current-sel").attr("data-selected", "true");
-  var numberOfTickets = $(this).attr("id");
-  console.log(numberOfTickets);
+    $(".person").removeClass("current-sel").removeAttr("data-selected");
+    $(this).addClass("current-sel").attr("data-selected", "true");
+    numberOfTickets = $(this).attr("id");
 });
