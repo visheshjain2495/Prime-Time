@@ -1,0 +1,12 @@
+.pass{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.submit-card{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
