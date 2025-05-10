@@ -7,3 +7,11 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.film-section{
+    margin-left: 3rem;
+}
+
+.trailer-frame{
+    width:  80%;
+}
