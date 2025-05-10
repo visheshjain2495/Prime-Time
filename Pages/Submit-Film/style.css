@@ -40,3 +40,26 @@
     background-color: white;
     width:93%;   
 }
+
+.custom-list {
+  list-style: none; /* Remove default bullets */
+  padding-left: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px; /* Space for icon */
+  margin-bottom: 10px;
+}
+
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+
+  background: url("./assets/svg/check2.svg") no-repeat center center;
+  background-size: contain;
+}
